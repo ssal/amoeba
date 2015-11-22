@@ -91,6 +91,11 @@ h2 {
 
 }
 
+.menu {
+	padding: 0.5em;
+	margin-bottom: 1.5em;
+}
+
 .setting {
 	padding: 0.5em;
 }
@@ -109,7 +114,9 @@ h2 {
 
 #settings {
 
-    box-shadow: 10px 10px 4px #888888;
+	-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 
     width: 200px;
 
